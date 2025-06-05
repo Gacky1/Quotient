@@ -5,11 +5,12 @@ TORTOISE = {
         "default": {
             "engine": "tortoise.backends.asyncpg",
             "credentials": {
-                "host": "localhost",
+                "host": "ep-long-sky-a5gyuh1j-pooler.us-east-2.aws.neon.tech",  # Updated to your Supabase host
                 "port": "5432",
-                "user": "postgres",  # Change this to your PostgreSQL username
-                "password": "Hacker01",  # Change this to your PostgreSQL password
-                "database": "quotient",  # Change this to your database name
+                "user": "neondb_owner",  # Change this to your PostgreSQL username
+                "password": "npg_Gzp3Fh8wHiSn",  # Change this to your PostgreSQL password
+                "database": "neondb",  # Change this to your database name
+                "ssl": True,  # Use SSL for secure connection  # Ensure SSL is required
             }
         }
     },
